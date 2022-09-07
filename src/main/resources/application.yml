@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mariadb://localhost:3306/flowable_test
+flowable:
+  database-schema-update: true
+  database-schema: flowable_test
